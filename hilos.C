@@ -3,7 +3,7 @@
 
 int saldo;
 void * holaHilo(void *thid){
-    printf("hola desde un hilo%d\n", *((int *)thid));  
+    printf("hola desde un hilo -> %d\n", *((int *)thid));  
     
     pthread_exit(NULL);
 }
